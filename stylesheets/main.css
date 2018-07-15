@@ -1,0 +1,104 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Sans-Serif;
+}
+
+.main-container {
+  margin: 0 auto;
+  display: grid;
+  width: 75%;
+  height: 90%;
+  grid-template: 
+            "a a a a"
+            "a a a a"
+            "a a a a"
+            "b c d e";
+  min-width: 1000px;
+}
+
+.grid-element {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-element#a {
+  grid-area: a;
+  background-image: url("../images/your_verse_hero.jpg");
+  background-position: 0 100%;
+  background-size: auto;
+}
+
+.grid-element#b {
+  grid-area: b;
+  background-image: url("../images/promo_iphone5s.jpg");
+  background-position: 0 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 1px 0px;
+}
+.grid-element#c {
+  grid-area: c;
+  background-image: url("../images/promo_iphone5c.jpg");
+  background-position: 0 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 1px 2px;
+}
+.grid-element#d {
+  grid-area: d;
+  background-image: url("../images/promo_30_years.jpg");
+  background-position: 0 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 1px 2px;
+}
+
+.grid-element#e {
+  grid-area: e;
+  background-image: url("../images/promo_supplier_responsibility.jpg");
+  background-position: 0 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 0px 1px 2px;
+}
+
+.hero img {
+  position: absolute;
+}
+
+footer {
+  width: 75%;
+  margin: 20px auto;
+  font-size: 10px;
+  color: rgba(0,0,0,0.7);
+  min-width: 1300px;
+}
+
+.footer-left {
+  display: inline-block;
+  float: left;
+  margin-left: 15%;
+}
+
+.footer-right {
+  display: inline-block;
+  float: right;
+  margin-right: 15%;
+}
+
+footer span {
+  border-right: 1px solid rgba(0,0,0,0.1);
+  padding: 0 5px;
+  color: rgb(0,136,204);
+  cursor: pointer;
+}
