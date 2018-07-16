@@ -7,7 +7,7 @@ html, body {
 
 
 .main-container {
-  margin: 0 auto;
+  margin: auto;
   display: grid;
   width: 75%;
   height: 90%;
@@ -16,7 +16,7 @@ html, body {
             "a a a a"
             "a a a a"
             "b c d e";
-  min-width: 1040px;
+  min-width: 1300px;
   min-height: 700px;
 }
 
