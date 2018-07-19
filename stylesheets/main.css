@@ -31,7 +31,7 @@ html, body {
   display: inline-block;
   grid-area: a;
   width: 50%;
-  margin: 18px 13%;
+  margin: 18px 250px;
   height: 38px;
   border-radius: 4px;
   background-color: grey;
@@ -136,7 +136,7 @@ html, body {
 .hero-img {
   grid-area: a;
   position: absolute;
-  margin: 0 14%;
+  margin: 0 250px;
   width: 45%;
   min-width: 800px;
 }
